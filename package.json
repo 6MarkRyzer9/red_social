@@ -1,0 +1,20 @@
+{
+  "name": "example",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "node --watch src/puppeteer.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "1. Descargar el proyecto 2. Situarse en la carpeta example 3. Escribir en consola `npm install` 4. Escribir en consola `npm run dev`",
+  "dependencies": {
+    "cheerio": "^1.0.0",
+    "express": "^5.1.0",
+    "puppeteer": "^24.6.1",
+    "puppeteer-core": "^24.6.1"
+  }
+}
